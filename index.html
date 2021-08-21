@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>CSS assignment</title>
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&family=Lexend+Deca&display=swap');
+
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-size: 15px;
+      font-family: 'Inter', sans-serif;
+    }
+
+    .values {
+      font-family: 'Lexend Deca', sans-serif;
+    }
+
+    .con1 {
+      width: 100vw;
+      height: 100vh;
+      background: hsl(233, 47%, 7%);
+      color: white;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+
+    .card {
+      width: 70vw;
+      background: hsl(244, 38%, 16%);
+      border-radius: 8px;
+      display: flex;
+    }
+
+    .desc {
+      width: 50%;
+      padding: 4rem;
+    }
+
+    h1 {
+      font-size: 2rem;
+    }
+
+    span {
+      font-size: 2rem;
+      color: hsl(277, 64%, 61%);
+    }
+
+    p {
+      color: hsla(0, 0%, 100%, 0.75);
+      margin: 1.5rem 0 4rem 0;
+      font-size: 13px;
+    }
+
+    .values {
+      display: flex;
+      justify-content: space-between;
+    }
+
+    .number {
+      font-size: 1.3rem;
+      font-weight: 700;
+    }
+
+    .name {
+      text-transform: uppercase;
+      color: hsla(0, 0%, 100%, 0.6);
+      font-size: 10px;
+    }
+
+    .card_img {
+      width: 50%;
+      background: url(/images/image-header-desktop.jpg);
+      background-size: cover;
+      border-radius: 0 7px 7px 0;
+    }
+  </style>
+</head>
+
+<body>
+  <div class="con1">
+    <div class="card">
+      <div class="desc">
+        <h1>Get <span>insights</span> that help your business grow.</h1>
+        <p>Discover the benefits of data analytics and make better decisions regarding revenue, customer
+          experience, and overall efficiency.</p>
+        <div class="values">
+          <div class="companies">
+            <div class="number">10k+</div>
+            <div class="name">companies</div>
+          </div>
+          <div class="templates">
+            <div class="number">314</div>
+            <div class="name">templates</div>
+          </div>
+          <div class="queries">
+            <div class="number">12M+</div>
+            <div class="name">queries</div>
+          </div>
+        </div>
+      </div>
+      <div class="card_img"></div>
+    </div>
+  </div>
+</body>
+
+</html>
